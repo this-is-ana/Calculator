@@ -1,0 +1,44 @@
+/*  --------------------------------------- */
+
+/*  table.css */
+/*  Styling the calculator */
+
+table {
+    font-size: 2.25rem;
+    width: 100%;
+}
+
+td, .display {
+    background-color: #808080;
+    border-radius: 5px;
+    height: 16vh;
+    width: 25%;
+}
+
+@media only screen and (min-width: 1200px) {
+    td, .display {
+        height: 14vh;
+    }
+}
+
+td:hover {
+    background-color: #999999;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.display {
+    background: #ebeff2;
+    font-weight: normal;
+    padding-left: 1.5vw;
+    text-align: left;
+}
+
+.symbol {
+    color: white;
+    background-color: #363B4A;
+}
+
+.symbol:hover {
+    background-color: #1B1F31;
+}

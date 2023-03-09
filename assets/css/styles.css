@@ -1,0 +1,17 @@
+@import "footer.css";
+@import "header.css";
+@import "table.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/scripts/Calculator.js"></script>
+    <script src="assets/scripts/drawer.js"></script>
+    <script src="assets/scripts/script.js"></script>
+    <title>maCalculatrice</title>
+</head>
+
+<body onload="main()" data-js-calculator>
+    <!-- Title  -->
+    <header>
+        <h1>maCalculatrice</h1>
+    </header>
+    <!-- Calculator main -->
+    <main>
+        <table>
+            <tr>
+                <th class="display" colspan="4">&nbsp;</th>
+            </tr>
+            <tr>
+                <td data-js-input="7">7</td>
+                <td data-js-input="8">8</td>
+                <td data-js-input="9">9</td>
+                <td class="symbol" data-js-input="-">-</td>
+            </tr>
+            <tr>
+                <td data-js-input="4">4</td>
+                <td data-js-input="5">5</td>
+                <td data-js-input="6">6</td>
+                <td class="symbol" data-js-input="/">&#247;</td>
+            </tr>
+            <tr>
+                <td data-js-input="1">1</td>
+                <td data-js-input="2">2</td>
+                <td data-js-input="3">3</td>
+                <td class="symbol" data-js-input="*">&#215;</td>
+            </tr>
+            <tr>
+                <td data-js-input="0">0</td>
+                <td data-js-input=",">,</td>
+                <td class="symbol" data-js-input="=">=</td>
+                <td class="symbol" data-js-input="+">+</td>
+            </tr>
+        </table>
+    </main>
+    <!-- Drawer up and calculator footer -->
+    <footer>
+        <p>
+            <svg onclick="toggleDrawer()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-chevron-up" stroke="currentColor" stroke-width="0.75" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+            </svg>
+            <svg onclick="toggleDrawer()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-chevron-down hide" stroke="currentColor" stroke-width="0.75" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </p>
+        <table>
+            <tr>
+                <td class="symbol" data-js-input="(">(</td>
+                <td class="symbol" data-js-input=")">)</td>
+                <td class="symbol" data-js-input="clear">C</td>
+                <td class="symbol" data-js-input="return">&larr;</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

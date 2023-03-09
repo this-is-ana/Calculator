@@ -1,0 +1,15 @@
+/*  --------------------------------------- */
+
+/*  header.css */
+/*  Styling elements in the header (title) */
+
+h1, #leftIcon {
+    color: #363B4A;
+}
+
+nav {
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    padding-left: 4vw;
+}

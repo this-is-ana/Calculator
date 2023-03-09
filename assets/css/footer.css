@@ -1,0 +1,48 @@
+/*  --------------------------------------- */
+
+/*  footer.css */
+/*  Styling elements in the footer (drawer going up) */
+
+footer {
+    background-color: #c0c0c0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 91.6vh;
+    transition: 0.5s;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        top: 84vh;
+        transition: none;
+    }
+}
+
+footer p {
+    align-items: center;
+    display: flex;
+    height: 8.2vh;
+    justify-content: center;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    footer p {
+        display: none;
+    }
+}
+
+svg {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.mySlideUp {
+    background-color: #999999;
+    top: 50%;
+}
